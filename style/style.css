@@ -1,0 +1,45 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+section{
+    margin: 80px 0;
+}
+h1{
+    margin: 50px auto;
+    /* text-align: center; */
+    width: 300px;
+}
+.block{
+    width: 300px;
+    height: 100px;
+}
+.block--red{
+    background-color: red;
+}
+.block--green{
+    background-color: green;
+}
+.block--blue{
+    background-color: blue;
+}
+.block--yellow{
+    background-color: yellow;
+}
+.block__child--grey{
+    background-color: rgb(77, 71, 71);
+}
+.block__child--black{
+    background-color:black;
+}
+.block__item{
+    /* width: 33%; */
+    width: calc(100% / 3);
+    height: 100px;
+    float: left;
+}
+.block__child{
+    width: calc(100% / 2);
+    height: 100px;
+    float: left;  
+}
